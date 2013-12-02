@@ -1,0 +1,46 @@
+table {
+		border:1px solid #000;
+		border-collapse:collapse;
+		font-family:arial,sans-serif;
+		font-size:80%;
+		margin:100px 100px 100px;
+	}
+	td,th{
+		border:1px solid #000;
+		border-collapse:collapse;
+		padding:5px;
+	}	
+	#element{width:50px}
+	#bedeut{width:400px}
+	#inout{width:50px;}
+	#seman{width:50px}
+	
+	caption{
+		background:#b4b4b4;
+		font-size:140%;
+		border:1px solid #000;
+		border-bottom:none;
+		padding:5px;
+		text-align:left;
+	}
+	thead th{
+		background:#ffffe1;
+		text-align:left;
+	}
+	tbody th{
+		text-align:center;
+		background:#f0f0f0;
+	}
+	tfoot td{
+		text-align:right;
+		font-weight:bold;
+		background:#e3e3e3;
+	}
+	tbody td{
+		background:#ffffff;	
+		text-align:left;
+	}
+	tbody tr.odd td{
+		background:#ffffff;
+	}
+	
